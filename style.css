@@ -1,0 +1,56 @@
+/* Global styles for the body of the document */
+body {
+    font-family: Arial, sans-serif; /* Sets the font style for the entire page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f0f0f0; /* Sets a light gray background color */
+}
+
+/* Header styling */
+header {
+    background-color: #003366; /* Dark blue background for the header */
+    color: white; /* White text color */
+    padding: 20px; /* Adds space inside the header */
+    text-align: center; /* Centers the header text */
+}
+
+/* Navigation menu styling */
+nav {
+    background-color: #006699; /* Lighter blue for the navigation bar */
+    padding: 10px; /* Adds space inside the nav bar */
+    text-align: center; /* Centers the nav links */
+}
+
+/* Navigation links styling */
+nav a {
+    color: white; /* White text color for links */
+    margin: 0 15px; /* Horizontal space between links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Container for content styling */
+.container {
+    max-width: 800px; /* Sets maximum width for content */
+    margin: 20px auto; /* Centers the container with vertical space */
+    padding: 20px; /* Adds space inside the container */
+    background-color: white; /* White background for content area */
+    border-radius: 5px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+}
+
+/* Button styling */
+button {
+    background-color: #ffcc00; /* Yellow background for buttons */
+    border: none; /* Removes the default border */
+    color: black; /* Black text color for buttons */
+    padding: 10px 20px; /* Adds vertical and horizontal padding */
+    margin-top: 10px; /* Adds space above the button */
+    cursor: pointer; /* Changes cursor to pointer when hovering */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #e6b800; /* Darkens the button color on hover */
+}
+
+
